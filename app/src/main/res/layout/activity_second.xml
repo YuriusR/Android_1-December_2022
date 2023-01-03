@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="text"
+        android:text="Введите текст" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="textPersonName"
+        android:text="Введите Имя"
+        android:textColor="@color/teal_200" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="phone"
+        android:text="Введите номер телефона"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/EditText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="number"
+        android:text="Номер"android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/EditText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="textPassword"
+        android:text="Введите пароль" />
+
+    <EditText
+        android:id="@+id/EditText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="textEmailAddress"
+        android:text="Введите Email адрес"
+        android:textColor="@android:color/darker_gray" />
+</LinearLayout>
